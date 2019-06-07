@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <link rel="stylesheet" type="text/css" href="mirador/css/mirador-combined.css">
+    <title>Mirador Viewer</title>
+    <style type="text/css">
+     #viewer {
+       width: 100%;
+       height: 100%;
+       position: fixed;
+     }
+    </style>
+  </head>
+  <body>
+    <div id="viewer"></div>
+
+    <script src="mirador/mirador.min.js"></script>
+    <script type="text/javascript">
+
+     $(function() {
+       myMiradorInstance = Mirador({
+         id: "viewer",
+         layout: "1x2",
+         buildPath: "mirador/",
+         data: [
+           { manifestUri: "https://media.nga.gov/public/manifests/nga_highlights.json", location: "National Gallery"},
+           { manifestUri: "http://localhost:8887/jprints.json", location: "My Own Laptop"}
+         ],
+ 	"windowObjects": [{
+ 		"loadedManifest": "http://localhost:8887/jprints.json",
+ 		"viewType": "ImageView",
+ 		"slotAddress": "row1.column1"
+ 	}, {
+ 		"loadedManifest": "https://media.nga.gov/public/manifests/nga_highlights.json",
+ 		"slotAddress": "row1.column2",
+ 		"viewType": "ImageView"
+ 	}],
+ 	"annotationEndpoint": {
+ 		"name": "Simple Annotation Store annotationEndpoint",
+ 		"module": "SimpleASEndpoint",
+    "options": {
+      "url": "http://sas.gdmrdigital.com/annotation"
+    }
+ 	},
+ 	"windowSettings": {
+ 		"canvasControls": {
+ 			"imageManipulation": {
+ 				"manipulationLayer": true,
+ 				"controls": {
+ 					"mirror": true
+ 				}
+ 			}
+ 		}
+ 	}
+       });
+     });
+    </script>
+  </body>
+</html>
