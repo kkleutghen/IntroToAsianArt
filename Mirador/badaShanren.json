@@ -1,0 +1,335 @@
+{
+"@context": "http://iiif.io/api/presentation/2/context.json",
+"@id": "http://127.0.0.1:8887/badaShanren.json",
+"@type": "sc:Manifest",
+"attribution": "Harvard Art Museums",
+"description": "Zhu Da, better known as Bada Shanren, was born into the Yiyang branch of the Ming imperial family in 1626, in Nanchang, Jiangxi province. His work ineradicably changed the course of the history of Chinese painting more than almost any other artist. Despite this impact and his high birth, little is known of his life and even less of his motivations. It is almost certain that most of his family was killed during the dynastic wars at the end of the Ming dynasty (1368-1644). Zhu Da himself chose sanctuary in Buddhist monasteries, where he remained until the late 1670s. The Buddhist life allowed a person of his capacities tremendous freedom during the seventeenth century. He was able to pursue a quiet life of Buddhist teaching, poetry, and painting and calligraphy. Loyal to the Ming until his death, he refused to serve or even to acknowledge the Qing (1644-1911). The poem on this painting translates:\r\n\r\nA Ming cake seen from one side,\r\nThe moon, so round when the melons rise.\r\nEveryone points to the mooncakes,\r\nBut hope that the melons will ripen is a fool's dream.\r\n\r\nTranslation by Richard M. Barnhart\r\n\r\nDuring the insurrection that brought about the downfall of the Mongol rule of the Yuan dynasty (1279-1368) in the fourteenth century, moon cakes were carried by the rebels as recognizable signs of their political allegiance. Although that earlier rebellion succeeded, Zhu Da seems to imply that no uprising against the Manchu Qing has a hope of success. Recent research has shown that the melon was also apparently a symbol of loyalty to the preceding dynasty and that, because of its many seeds, the melon was an embodiment of royal lineage.\r\n",
+"label": "Moon and Melon",
+"logo": {
+"@id": "https://ids.lib.harvard.edu/ids/iiif/437958013/full/!800,800/0/native.jpg",
+"service": {
+"@context": "http://iiif.io/api/image/2/context.json",
+"@id": "https://ids.lib.harvard.edu/ids/iiif/437958013",
+"profile": "http://iiif.io/api/image/2/level2.json"
+}
+},
+"metadata": [
+{
+"label": "Date",
+"value": "1689"
+},
+{
+"label": "Classification",
+"value": "Paintings with Calligraphy"
+},
+{
+"label": "Credit Line",
+"value": "Harvard Art Museums/Arthur M. Sackler Museum, Gift of Earl Morse, Harvard Law School, Class of 1930"
+},
+{
+"label": "Object Number",
+"value": "1964.94"
+},
+{
+"label": "People",
+"value": [
+"Artist: Zhu Da (also known as Bada Shanren), Chinese, 1626 - 1706"
+]
+},
+{
+"label": "Medium",
+"value": "Hanging scroll: ink on paper; with signature reading \"Bada Shanren\""
+},
+{
+"label": "Dimensions",
+"value": "painting proper: H. 73.6 x W. 45.1 cm (29 x 17 3/4 in.)\r\nmounting, including cord and roller ends: H. 209.6 x W. 65.4 cm (82 1/2 x 25 3/4 in.)"
+}
+],
+"rendering": {
+"@id": "https://www.harvardartmuseums.org/collections/object/202768",
+"format": "text/html",
+"label": "Full record view"
+},
+"sequences": [
+{
+"@id": "https://iiif.harvardartmuseums.org/manifests/object/202768/sequence/normal",
+"@type": "sc:Sequence",
+"canvases": [
+{
+"@id": "https://iiif.harvardartmuseums.org/manifests/object/202768/canvas/canvas-435749372",
+"@type": "sc:Canvas",
+"height": 7666,
+"images": [
+{
+"@id": "https://iiif.harvardartmuseums.org/manifests/object/202768/annotation/anno-435749372",
+"@type": "oa:Annotation",
+"motivation": "sc:painting",
+"on": "https://iiif.harvardartmuseums.org/manifests/object/202768/canvas/canvas-435749372",
+"resource": {
+"@id": "https://ids.lib.harvard.edu/ids/iiif/435749372/full/full/0/native.jpg",
+"@type": "dctypes:Image",
+"format": "image/jpeg",
+"height": 7666,
+"service": {
+"@context": "http://iiif.io/api/image/2/context.json",
+"@id": "https://ids.lib.harvard.edu/ids/iiif/435749372",
+"profile": "http://iiif.io/api/image/2/level2.json"
+},
+"width": 4782
+}
+}
+],
+"label": "painting proper",
+"otherContent": [
+{
+"@id": "https://iiif.harvardartmuseums.org/manifests/object/202768/list/435749372",
+"@type": "sc:AnnotationList"
+}
+],
+"width": 4782
+},
+{
+"@id": "https://iiif.harvardartmuseums.org/manifests/object/202768/canvas/canvas-435773461",
+"@type": "sc:Canvas",
+"height": 6408,
+"images": [
+{
+"@id": "https://iiif.harvardartmuseums.org/manifests/object/202768/annotation/anno-435773461",
+"@type": "oa:Annotation",
+"motivation": "sc:painting",
+"on": "https://iiif.harvardartmuseums.org/manifests/object/202768/canvas/canvas-435773461",
+"resource": {
+"@id": "https://ids.lib.harvard.edu/ids/iiif/435773461/full/full/0/native.jpg",
+"@type": "dctypes:Image",
+"format": "image/jpeg",
+"height": 6408,
+"service": {
+"@context": "http://iiif.io/api/image/2/context.json",
+"@id": "https://ids.lib.harvard.edu/ids/iiif/435773461",
+"profile": "http://iiif.io/api/image/2/level2.json"
+},
+"width": 4410
+}
+}
+],
+"label": "detail of seal preceding inscription",
+"otherContent": [
+{
+"@id": "https://iiif.harvardartmuseums.org/manifests/object/202768/list/435773461",
+"@type": "sc:AnnotationList"
+}
+],
+"width": 4410
+},
+{
+"@id": "https://iiif.harvardartmuseums.org/manifests/object/202768/canvas/canvas-435773456",
+"@type": "sc:Canvas",
+"height": 7490,
+"images": [
+{
+"@id": "https://iiif.harvardartmuseums.org/manifests/object/202768/annotation/anno-435773456",
+"@type": "oa:Annotation",
+"motivation": "sc:painting",
+"on": "https://iiif.harvardartmuseums.org/manifests/object/202768/canvas/canvas-435773456",
+"resource": {
+"@id": "https://ids.lib.harvard.edu/ids/iiif/435773456/full/full/0/native.jpg",
+"@type": "dctypes:Image",
+"format": "image/jpeg",
+"height": 7490,
+"service": {
+"@context": "http://iiif.io/api/image/2/context.json",
+"@id": "https://ids.lib.harvard.edu/ids/iiif/435773456",
+"profile": "http://iiif.io/api/image/2/level2.json"
+},
+"width": 2525
+}
+}
+],
+"label": "overall with mounting",
+"otherContent": [
+{
+"@id": "https://iiif.harvardartmuseums.org/manifests/object/202768/list/435773456",
+"@type": "sc:AnnotationList"
+}
+],
+"width": 2525
+},
+{
+"@id": "https://iiif.harvardartmuseums.org/manifests/object/202768/canvas/canvas-435773459",
+"@type": "sc:Canvas",
+"height": 5367,
+"images": [
+{
+"@id": "https://iiif.harvardartmuseums.org/manifests/object/202768/annotation/anno-435773459",
+"@type": "oa:Annotation",
+"motivation": "sc:painting",
+"on": "https://iiif.harvardartmuseums.org/manifests/object/202768/canvas/canvas-435773459",
+"resource": {
+"@id": "https://ids.lib.harvard.edu/ids/iiif/435773459/full/full/0/native.jpg",
+"@type": "dctypes:Image",
+"format": "image/jpeg",
+"height": 5367,
+"service": {
+"@context": "http://iiif.io/api/image/2/context.json",
+"@id": "https://ids.lib.harvard.edu/ids/iiif/435773459",
+"profile": "http://iiif.io/api/image/2/level2.json"
+},
+"width": 6711
+}
+}
+],
+"label": "inscription, signature, and seals",
+"otherContent": [
+{
+"@id": "https://iiif.harvardartmuseums.org/manifests/object/202768/list/435773459",
+"@type": "sc:AnnotationList"
+}
+],
+"width": 6711
+},
+{
+"@id": "https://iiif.harvardartmuseums.org/manifests/object/202768/canvas/canvas-435773460",
+"@type": "sc:Canvas",
+"height": 7725,
+"images": [
+{
+"@id": "https://iiif.harvardartmuseums.org/manifests/object/202768/annotation/anno-435773460",
+"@type": "oa:Annotation",
+"motivation": "sc:painting",
+"on": "https://iiif.harvardartmuseums.org/manifests/object/202768/canvas/canvas-435773460",
+"resource": {
+"@id": "https://ids.lib.harvard.edu/ids/iiif/435773460/full/full/0/native.jpg",
+"@type": "dctypes:Image",
+"format": "image/jpeg",
+"height": 7725,
+"service": {
+"@context": "http://iiif.io/api/image/2/context.json",
+"@id": "https://ids.lib.harvard.edu/ids/iiif/435773460",
+"profile": "http://iiif.io/api/image/2/level2.json"
+},
+"width": 3547
+}
+}
+],
+"label": "detail of seals following inscription and signature",
+"otherContent": [
+{
+"@id": "https://iiif.harvardartmuseums.org/manifests/object/202768/list/435773460",
+"@type": "sc:AnnotationList"
+}
+],
+"width": 3547
+},
+{
+"@id": "https://iiif.harvardartmuseums.org/manifests/object/202768/canvas/canvas-435773462",
+"@type": "sc:Canvas",
+"height": 4928,
+"images": [
+{
+"@id": "https://iiif.harvardartmuseums.org/manifests/object/202768/annotation/anno-435773462",
+"@type": "oa:Annotation",
+"motivation": "sc:painting",
+"on": "https://iiif.harvardartmuseums.org/manifests/object/202768/canvas/canvas-435773462",
+"resource": {
+"@id": "https://ids.lib.harvard.edu/ids/iiif/435773462/full/full/0/native.jpg",
+"@type": "dctypes:Image",
+"format": "image/jpeg",
+"height": 4928,
+"service": {
+"@context": "http://iiif.io/api/image/2/context.json",
+"@id": "https://ids.lib.harvard.edu/ids/iiif/435773462",
+"profile": "http://iiif.io/api/image/2/level2.json"
+},
+"width": 1845
+}
+}
+],
+"label": "detail of seal at lower left (above pair of square seals)",
+"otherContent": [
+{
+"@id": "https://iiif.harvardartmuseums.org/manifests/object/202768/list/435773462",
+"@type": "sc:AnnotationList"
+}
+],
+"width": 1845
+},
+{
+"@id": "https://iiif.harvardartmuseums.org/manifests/object/202768/canvas/canvas-435773458",
+"@type": "sc:Canvas",
+"height": 5063,
+"images": [
+{
+"@id": "https://iiif.harvardartmuseums.org/manifests/object/202768/annotation/anno-435773458",
+"@type": "oa:Annotation",
+"motivation": "sc:painting",
+"on": "https://iiif.harvardartmuseums.org/manifests/object/202768/canvas/canvas-435773458",
+"resource": {
+"@id": "https://ids.lib.harvard.edu/ids/iiif/435773458/full/full/0/native.jpg",
+"@type": "dctypes:Image",
+"format": "image/jpeg",
+"height": 5063,
+"service": {
+"@context": "http://iiif.io/api/image/2/context.json",
+"@id": "https://ids.lib.harvard.edu/ids/iiif/435773458",
+"profile": "http://iiif.io/api/image/2/level2.json"
+},
+"width": 2695
+}
+}
+],
+"label": "detail of seals in lower left corner",
+"otherContent": [
+{
+"@id": "https://iiif.harvardartmuseums.org/manifests/object/202768/list/435773458",
+"@type": "sc:AnnotationList"
+}
+],
+"width": 2695
+},
+{
+"@id": "https://iiif.harvardartmuseums.org/manifests/object/202768/canvas/canvas-435773457",
+"@type": "sc:Canvas",
+"height": 4265,
+"images": [
+{
+"@id": "https://iiif.harvardartmuseums.org/manifests/object/202768/annotation/anno-435773457",
+"@type": "oa:Annotation",
+"motivation": "sc:painting",
+"on": "https://iiif.harvardartmuseums.org/manifests/object/202768/canvas/canvas-435773457",
+"resource": {
+"@id": "https://ids.lib.harvard.edu/ids/iiif/435773457/full/full/0/native.jpg",
+"@type": "dctypes:Image",
+"format": "image/jpeg",
+"height": 4265,
+"service": {
+"@context": "http://iiif.io/api/image/2/context.json",
+"@id": "https://ids.lib.harvard.edu/ids/iiif/435773457",
+"profile": "http://iiif.io/api/image/2/level2.json"
+},
+"width": 2104
+}
+}
+],
+"label": "detail of seal in lower right corner",
+"otherContent": [
+{
+"@id": "https://iiif.harvardartmuseums.org/manifests/object/202768/list/435773457",
+"@type": "sc:AnnotationList"
+}
+],
+"width": 2104
+}
+],
+"viewingHint": "individuals"
+}
+],
+"thumbnail": {
+"@id": "https://ids.lib.harvard.edu/ids/iiif/435749372/full/!170,170/0/native.jpg",
+"service": {
+"@context": "http://iiif.io/api/image/2/context.json",
+"@id": "https://ids.lib.harvard.edu/ids/iiif/435749372",
+"profile": "http://iiif.io/api/image/2/level2.json"
+}
+},
+"within": "https://www.harvardartmuseums.org/collections"
+}

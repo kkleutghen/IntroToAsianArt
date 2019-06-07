@@ -1,0 +1,138 @@
+{
+	"@context": "http://iiif.io/api/presentation/2/context.json",
+	"@id": "http://127.0.0.1:8887/jprints.json",
+	"@type": "sc:Manifest",
+	"label": "Study Images for L01-111",
+	"metadata": [],
+	"description": [
+		{
+			"@value": "Class 13a: Japanese Prints",
+			"@language": ""
+		}
+	],
+	"license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+	"attribution": "",
+	"sequences": [
+		{
+			"@id": "http://2057317b-1503-4a37-9ff4-2bd9b253f862",
+			"@type": "sc:Sequence",
+			"label": "Normal Sequence",
+			"canvases": [
+				{
+					"@id": "http://4cd55b43-2f12-4a39-b3c6-f47aec1332a3",
+					"@type": "sc:Canvas",
+					"label": "Katsukshika Hokusai, 'Rainstorm Beneath the Summit' from Thirty-Six Views of Mt. Fuji (1831)",
+					"height": 475,
+					"width": 720,
+					"images": [
+						{
+							"@context": "http://iiif.io/api/presentation/2/context.json",
+							"@id": "http://a034cd5c-0a2f-418a-bb23-09d51284cfa0",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "http://free.iiifhosting.com/iiif/77f0ba107bae92adfce0ddbb103215bfb981316409666b63423934216bef1f8f/full/full/0/default.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "http://free.iiifhosting.com/iiif/77f0ba107bae92adfce0ddbb103215bfb981316409666b63423934216bef1f8f",
+									"profile": [
+										"http://iiif.io/api/image/2/level1.json",
+										{
+											"formats": [
+												"jpg"
+											],
+											"qualities": [
+												"native",
+												"color",
+												"gray"
+											],
+											"supports": [
+												"regionByPct",
+												"regionSquare",
+												"sizeByForcedWh",
+												"sizeByWh",
+												"sizeAboveFull",
+												"rotationBy90s",
+												"mirroring"
+											]
+										}
+									]
+								},
+								"height": 475,
+								"width": 720
+							},
+							"on": "http://4cd55b43-2f12-4a39-b3c6-f47aec1332a3"
+						}
+					],
+					"otherContent": [
+					{
+				 "@id": "http://localhost:8887/annotationsHokusai.json",
+				 "@type":"sc:AnnotationList",
+				 "label": "Annotations for Hokusai print"
+			 }
+		]
+	},
+				{
+					"@id": "http://3e07c2a4-5c20-46f9-8cae-588595484acc",
+					"@type": "sc:Canvas",
+					"label": "Katsukawa Shunshō, Ichikawa Danjuro V in a Shibaraku Role (ca. 1779)",
+					"height": 1934,
+					"width": 897,
+					"images": [
+						{
+							"@context": "http://iiif.io/api/presentation/2/context.json",
+							"@id": "http://2b9f97e0-afa9-4bdc-a468-598f4befffff",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "http://free.iiifhosting.com/iiif/14ee184f21f2589595fd749dbd9341be678f8f8ebf3426b04e99380b440722b3/full/full/0/default.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "http://free.iiifhosting.com/iiif/14ee184f21f2589595fd749dbd9341be678f8f8ebf3426b04e99380b440722b3",
+									"profile": [
+										"http://iiif.io/api/image/2/level1.json",
+										{
+											"formats": [
+												"jpg"
+											],
+											"qualities": [
+												"native",
+												"color",
+												"gray"
+											],
+											"supports": [
+												"regionByPct",
+												"regionSquare",
+												"sizeByForcedWh",
+												"sizeByWh",
+												"sizeAboveFull",
+												"rotationBy90s",
+												"mirroring"
+											]
+										}
+									]
+								},
+								"height": 1934,
+								"width": 897
+							},
+							"on": "http://3e07c2a4-5c20-46f9-8cae-588595484acc"
+						}
+					],
+				"otherContent": [
+				{
+			 "@id": "http://localhost:8887/annotationsShunsho.json",
+			 "@type":"sc:AnnotationList",
+			 "label": "Annotations for Shunsho print"
+		 }
+	]
+}
+],
+	"structures": [],
+	"viewingDirection": "left-to-right"
+}
+]
+}
